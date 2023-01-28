@@ -187,7 +187,7 @@ def crack_pass_file(fn_pass,words,out):
                        outputFile.write( '{}={}\n'.format(d['account'], cdw) )
                        encryptedPasswords.remove( d ) 
                        outputFile.flush() 
-                # check reversed capsDigitWords
+                # check reversed capsDigitWords Instagram 
                 for d in encryptedPasswords:
                    if( check_pass( cdRw, d['password'] ) ): 
                        outputFile.write( '{}={}\n'.format(d['account'], cdRw) )
